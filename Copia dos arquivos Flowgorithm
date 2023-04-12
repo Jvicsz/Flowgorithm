@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" <title> DOCUMENTO </title>
+</head>
+<script>
+    function enquanto() {
+        var usuario;
+        var senha;
+        var recorrente;
+        var enquanto;
+        enquanto=true;
+      
+
+
+
+        while (enquanto == true) {
+            usuario = window.prompt('Enter a value for usuario');
+            senha = window.prompt('Enter a value for senha');
+            if (usuario == "Joao Victor") {
+                if (senha == "Jvic") {
+                    window.alert("Login efetuado com sucesso!");
+                    enquanto = false;
+                }
+            }
+        }
+    }
+    </script>
+<script>
+
+
+
+    function main() {
+        var usuario;
+        var senha;
+        var recorrente;
+
+        do {
+            usuario = window.prompt('Enter a value for usuario');
+            senha = window.prompt('Enter a value for senha');
+            if (usuario == "Joao Victor") {
+                if (senha == "Jvic") {
+                    window.alert("Login efetuado com sucesso!");
+                    recorrente = false;
+                }
+            }
+        } while (recorrente == true);
+    }
+
+</script>
+<body>
+    <button onclick="enquanto()"> enquanto </button>
+    <button onclick="main()"> faca </button>
+</body>
+
+
+
+
+</html>
